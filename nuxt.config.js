@@ -60,9 +60,7 @@ module.exports = {
   */
   modules: [],
 
-  router: {
-    base: '/nuxt-material-admin/'
-  },
+
 
   /*
   ** Build configuration
@@ -88,6 +86,10 @@ module.exports = {
     }
   },
 
+  router: {
+    base: '/nuxt-material-admin/'
+  },
+  
   generate: {
     dir: 'docs'
   }
