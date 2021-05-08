@@ -61,7 +61,7 @@ module.exports = {
   modules: [],
 
   router: {
-    base: 'nuxt-material-admin'
+    base: '/nuxt-material-admin/'
   },
 
   /*
