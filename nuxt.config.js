@@ -1,10 +1,10 @@
 const pkg = require('./package')
-
-
 const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin')
 
 module.exports = {
-  mode: 'spa',
+//mode: 'spa',
+
+  ssr: false,
 
   /*
   ** Headers of the page
@@ -59,6 +59,10 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [],
+
+  router: {
+    base: 'nuxt-material-admin'
+  },
 
   /*
   ** Build configuration
